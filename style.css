@@ -1,0 +1,112 @@
+body { 
+background-color: #D5F489;
+background: 
+  linear-gradient(
+	     rgba(0,0,0,100%),
+	     rgba(0,0,0,90%),
+         rgba(0,0,0,80%),
+         rgba(0,0,0,35%),
+         rgba(0,0,0,0%)) no-repeat,
+     url(img/ensaladas.jpg);
+
+ background-size: cover;
+ height: 600px;
+ }
+
+h1 {
+    background-color: #8FAB49;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.nav { 
+     /*border-style: solid;*/
+     /*border-width: 1px;*/
+     /*border-color: white;*/
+     float: right;
+     margin:0px 20px;
+     color: grey;
+     display: inline-block;
+     width: 60%;
+     /*background-color: white;*/
+     text-align: center;
+     font-family: 'Atma'; 
+     font-size: 22px;
+
+ }
+
+
+    /*este es un div*/
+ .panel {
+ 	width: 30%; 
+ 	height: 600px;
+ 	background-color:black;
+ 	color:white;
+ 	opacity: 90%;
+ 	padding:50px;
+ 	margin-top: 60px;
+
+ }
+
+ ul {
+ 	/*background-color: orange;*/
+ }
+
+ .nav ul li {
+ 	/*float: right;*/
+ 	margin: 0px 20px;
+ 	text-align: center;
+ 	color: grey;
+ 	/*width: 110px;*/
+ 	/*border-width: 1px;*/
+ 	/*border-style: solid;*/
+ 	/*border-color: gray;*/
+ 	display: inline-block;
+ 	border-radius: 40px 30px;
+ }
+
+ .nav ul li:hover{
+ 	background-color: gray;
+ 	color: white;
+ }
+
+ li{
+ 	color: red;
+ 	font-size: 25px;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	color: grey;
+ 	/*border-width: 1px;*/
+ 	/*border-style: solid;*/
+ 	width: 110px;
+ 	height: 40px;
+ 	padding: 10px;
+ }
+
+ a:hover{
+ 	color: white;
+ }
+ /*
+ section{
+ 	width:625px;
+    height:700px;        
+ 	margin-left: 50px;
+ 	background-color: #ffffff;
+ }*/
+
+ p { 
+     text-align: justify;
+     color: white;
+     margin-top: 5px;
+  }
+
+  img {
+  	height: 125px;
+  	position: absolute;
+  	z-index: 1;
+  }

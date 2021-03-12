@@ -1,0 +1,45 @@
+body{
+	background-color: #AAEFD4;
+	font-family: arial, sans-serif;
+}
+
+h1,h3{
+	font-family: aclonica, arial, sans-serif;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	background-color: gray;
+	font-size: 50px;
+}
+
+h2{
+	text-align: center;
+	color: #2A5479;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-family: combo;
+}
+
+section{
+	
+	width: 60%;
+	margin: 70px, auto;
+	padding: 30px;
+    text-align: left;
+}
+
+img{
+	height: 270px;
+	width: 80%;
+
+	/*centrado*/
+
+   display: block;
+   margin: 0px auto;
+
+}
+

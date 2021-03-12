@@ -1,0 +1,45 @@
+body{
+	background-color: #DFDC8A;
+	font-family: arial, sans-serif;
+}
+
+h1,h3{
+	font-family: Architects Daughter, arial, sans-serif;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	background-color: #BD9A62;
+	font-size: 50px;
+}
+
+h2{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-family: Boogaloo;
+}
+
+section{
+	
+	width: 60%;
+	margin: 70px, auto;
+	padding: 30px;
+    text-align: center;
+}
+
+img{
+	height: 270px;
+	width: 80%;
+
+	/*centrado*/
+
+   display: block;
+   margin: 0px auto;
+
+}
+
